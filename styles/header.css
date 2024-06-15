@@ -1,0 +1,46 @@
+header {
+    
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img{
+    height: 22px;
+}
+
+.menu-lista{
+    display: none;
+
+}
+
+.menu-lista li a{
+    color: #464646;
+}
+
+@media (min-width: 1024px){
+    header{
+      padding: 20px 100px;
+    }
+
+    .logo{
+      font-size: 20px;
+    }
+    .menu-lista{
+     display: flex;
+     flex-direction: row;
+     font-size: 16px;
+     gap: 10px;
+    }
+    .menu-lista-item-c{
+        display:none;
+       }
+}
